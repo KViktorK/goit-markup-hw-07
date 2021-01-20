@@ -1,0 +1,38 @@
+.section-team {
+  background-color: var(--team-background);
+}
+.team-box {
+  display: flex;
+  padding-bottom: 94px;
+}
+.team-box > .item {
+  justify-content: space-between;
+}
+.team > .item + .item {
+  margin-left: 30px;
+}
+.team .card-bg {
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team .name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  margin: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.team-img {
+  margin-bottom: 30px;
+}
+.team .work {
+  font-size: 16px;
+  line-height: 1.2;
+  margin: 0px;
+  text-align: center;
+}

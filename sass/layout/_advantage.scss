@@ -1,0 +1,30 @@
+.advantage-box {
+  display: flex;
+  justify-content: space-around;
+}
+.advantage > .item + .item {
+  margin-left: 30px;
+}
+.advantage-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  height: 120px;
+
+  background-color: var(--team-background);
+}
+.advantage .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.advantage .text {
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0px;
+}

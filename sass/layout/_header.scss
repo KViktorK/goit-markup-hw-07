@@ -1,0 +1,88 @@
+header {
+  height: 80px;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid #ececec;
+}
+.header-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// sait-nav
+.nav {
+  margin-left: 94px;
+}
+.sait-nav {
+  display: flex;
+}
+.sait-nav .link {
+  transition: var(--animation-time);
+}
+.sait-nav .item + .item {
+  margin-left: 50px;
+}
+.sait-nav a {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.sait-nav .link:hover,
+.sait-nav .link:focus {
+  color: var(--accent-color);
+}
+// link-header
+.link-header {
+  display: flex;
+  margin-left: auto;
+}
+.link-header .item + .item {
+  margin-left: 50px;
+}
+.link-header a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.link-header .link {
+  transition: var(--animation-time);
+}
+.link-header .link:hover,
+.link-header .link:focus {
+  color: var(--accent-color);
+}
+
+.link-box .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-text-color);
+}
+.link .icon {
+  margin-right: 10px;
+  padding: 0;
+}
+.link-icon-item {
+  fill: currentColor;
+}
+
+// logo
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
